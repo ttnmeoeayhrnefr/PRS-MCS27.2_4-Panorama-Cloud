@@ -3,3 +3,8 @@ variable "github_token" {
   type        = string
   sensitive   = true
 }
+
+variable "nom_du_repo" {
+  description = "Nom du dépôt GitHub"
+  type        = string
+}
