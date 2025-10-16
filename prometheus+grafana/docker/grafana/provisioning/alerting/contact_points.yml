@@ -1,0 +1,10 @@
+apiVersion: 1
+contactPoints:
+  - orgId: 1
+    name: EXAMPLE
+    receivers:
+      - uid: eeaog6qghdou8e
+        type: email
+        settings:
+          addresses: monitoring@digitalseeder.com
+        disableResolveMessage: false
